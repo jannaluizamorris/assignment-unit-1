@@ -1,13 +1,42 @@
 /* Add a background color to the header element */
-
+header {
+    background-color: thistle;
+    color: mediumvioletred;
+    text-align: center;
+}
 /* Add a fun background color to the main element */
+main {
+    background-color: pink;
+    padding: 10px;
+}
 
+body {
+    background-color: pink;
+    margin: 3%;
+}
 /* Align the h1 containing your name in the center of the header*/
 
 /* Make your p tag a different color and italic */
-
+p {
+   font-style: italic; 
+   color: mediumvioletred;
+}
 /* Put a border around your image */
-
+.main-image {
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 5px solid mediumvioletred;
+    padding: 2px;
+}
 /* Change the font-family of your list */
-
+ul {
+    font-family: Arial, Helvetica, Serif
+}
 /* Add a background color to the footer element */
+footer {
+    background-color: thistle;
+    text-align: center;
+}
